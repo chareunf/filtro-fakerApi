@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <h1>Consulta Datos</h1>
+
+
+        <h2>Seleccione Datos a Consultar</h2>
+        <select name="select" id="select">
+            <option value="" selected>Elige una opción</option>
+            <option value="addresses">Addresses</option>
+            <option value="books">Books</option>
+            <option value="companies">Companies</option>
+            <option value="persons">Persons</option>
+            <option value="users">Users</option>
+        </select>
+
+
+        <section id="filter">
+            <label for="filtro">Filtrar</label>
+            <input type="text" id="filtro" placeholder="¿Que estas buscando?">
+        </section>
+
+        
+        <section id="datosRenderizados"></section> 
+
+    </main>
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

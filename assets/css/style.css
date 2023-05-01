@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+main{
+    width: 80vw;
+    margin: 0 auto;
+}
+h1{
+    color: gray;
+    box-shadow: 0 0 5px white,0 0 5px white, 0 0 15px yellow;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 15px lightgray);
+    font-size: 3rem;
+}
+select{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    
+}
+label, h2{
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 10px yellow, 0 0 10px yellow,0 0 10px white ;
+    filter: drop-shadow();
+}
+input{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1rem;
+}
+#datosRenderizados{
+    box-shadow: 0 0 10px yellow, 0 0 10px yellow,0 0 10px white ;
+    min-height: 300px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
